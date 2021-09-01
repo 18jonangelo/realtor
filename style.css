@@ -1,0 +1,423 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* navigation */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: blue;
+}
+
+nav,
+button {
+  font-size: 14px;
+
+  font-weight: normal;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+  justify-content: space-between;
+  text-decoration: none;
+  padding: 10px 50px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+nav ul img {
+  max-width: 100%;
+  width: 160px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.mid-nav {
+  display: flex;
+  align-items: center;
+}
+
+.mid-nav li {
+  margin: 0 10px;
+}
+
+.register-btn {
+  display: flex;
+}
+
+.login-btn li {
+  padding-right: 16px;
+}
+
+.advertise-btn {
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 5px 12px;
+  border: 1px solid gray;
+}
+
+.signup-btn,
+.login-btn {
+  background-color: transparent;
+  border-radius: 50px;
+  padding: 8px 15px;
+}
+
+.signup-btn {
+  background-color: #d92228;
+  color: white;
+  border: none;
+}
+
+/* header */
+
+.header-layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+
+  align-items: center;
+  color: white;
+  background: url("https://static.rdc.moveaws.com/images/hero/default/2021-2/hp-hero-desktop-1440w.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-position-x: 50%;
+}
+
+h1 {
+  margin-top: -50px;
+  font-size: 55px;
+}
+h1 span {
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+}
+
+h3 {
+  font-weight: 200;
+  margin: 25px auto;
+}
+
+.link-layout ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-layout ul li {
+  text-decoration: none;
+  list-style: none;
+  margin: 30px 10px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.active {
+  padding: 10px;
+  border-bottom: 3px solid #d92228;
+}
+.search-text {
+  display: flex;
+}
+
+.search-text input {
+  width: 400px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.search-text button {
+  font-size: 20px;
+  border-radius: 5px;
+  width: 140px;
+  background-color: #d92228;
+  color: white;
+}
+
+/* listing */
+.listing-layout {
+  padding: 50px;
+}
+
+.listing-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.listing-items .house {
+  max-width: 100%;
+  width: 280px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  margin: 2% 5px;
+}
+
+.listing-items .house img {
+  max-width: 100%;
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.listing-title h3 {
+  margin-top: 0;
+  color: gray;
+}
+
+.listing-items .house p {
+  padding-top: 5px;
+  padding-left: 12px;
+}
+
+/* count */
+
+.count-layout {
+  margin: 50px;
+}
+
+.count-layout .count-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.count-layout .count-items .count {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.count-value {
+  font-size: 40px;
+  color: #24538f;
+}
+
+.count > p {
+  color: gray;
+}
+
+/* unique */
+
+.unique-layout {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+    url("https://rdcnewscdn.realtor.com/wp-content/uploads/2015/12/lancelot-cover-8-17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.unique-title {
+  display: flex;
+  flex-direction: column;
+  padding: 150px;
+  align-items: center;
+  color: white;
+}
+
+.unique-title h4 {
+  font-weight: 100;
+}
+.kansas-title {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 20px;
+}
+
+.kansas-title h3 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.unique-title button {
+  background-color: transparent;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin-top: 50px;
+  padding: 10px 30px;
+}
+
+/* tends */
+
+.trends-layout {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+}
+
+.trends {
+  margin: 20px 5px;
+  width: 265px;
+  height: 280px;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.trends img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+.trends p {
+  margin-left: 10px;
+}
+
+/* loan */
+
+.full-loan-layout {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.loan-layout {
+  display: flex;
+}
+
+.loan-layout img {
+  width: 100%;
+  max-width: 50%;
+}
+
+.loan-text {
+  display: flex;
+  flex-direction: column;
+  padding: 200px 40px;
+}
+
+.loan-text button {
+  width: 180px;
+  padding: 10px 0;
+  border-radius: 20px;
+  background-color: #d92228;
+  color: white;
+  border: none;
+}
+
+.loan-text p {
+  margin: 20px auto;
+}
+
+.loan-text input {
+  width: 120px;
+}
+
+.search-text2 {
+  margin-top: 5%;
+  display: flex;
+
+  align-items: center;
+}
+
+.search-text2 input {
+  width: 300px;
+  border-radius: 3px;
+  height: 40px;
+}
+
+.search-text2 button {
+  width: 105px;
+  border-radius: 3px;
+  height: 48px;
+  margin-left: -2px;
+}
+
+/* realtors */
+
+.realtors-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 50px;
+  flex-wrap: wrap;
+}
+
+.realtors-first {
+  display: flex;
+  align-items: flex-start;
+}
+.realtors-img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.realtors-list ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+}
+.realtors-list ul li,
+.realtors-list p {
+  width: 100%;
+  text-align: start;
+  color: darkslategray;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.realtors-list h4 {
+  margin-left: 10%;
+  font-size: 14px;
+  color: black;
+}
+
+/* popular */
+
+.popular-layout {
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular-item {
+  margin: 10px 20px;
+}
+.popular-item h4 {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 5%;
+}
+
+.popular-item li {
+  list-style-type: none;
+  font-size: 13px;
+}
+
+.popular-item a {
+  text-decoration: none;
+  color: gray;
+}
+
+a.seemore {
+  color: #24538f;
+  font-weight: bold;
+}
